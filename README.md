@@ -68,22 +68,6 @@ iCustomer/
 
 > The **View (XAML) contains zero logic** — everything flows through ViewModels via Binding. The View observes data and redraws itself automatically on change.
 
----
-
-## 🖥️ Screenshots
-
-| Home Screen | Customer List |
-|---|---|
-| ![Home](assets/home.png) | ![List](assets/customers.png) |
-
-| Form with Validation | Monthly Chart Comparison |
-|---|---|
-| ![Form](assets/form.png) | ![Chart](assets/chart.png) |
-
-> *Screenshots included in `/assets` folder of this repository.*
-
----
-
 ## ⚙️ Form Validation Rules
 
 | Field | Rule |
