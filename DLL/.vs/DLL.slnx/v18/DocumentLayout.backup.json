@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\emailcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\emailcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\namecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\namecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\emailcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\emailcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\namecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\namecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\phonecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\phonecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\phonecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\phonecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\dnicontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\dnicontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra2\\icustomer.v2\\dll\\dll\\dnicontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6152951E-C959-FD77-CC86-28ECE1D4E648}|DLL\\DLL.csproj|solutionrelative:dll\\dnicontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhoneControl.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\PhoneControl.xaml",
+              "RelativeDocumentMoniker": "DLL\\PhoneControl.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\PhoneControl.xaml",
+              "RelativeToolTip": "DLL\\PhoneControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-20T10:21:48.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DniControl.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\DniControl.xaml",
+              "RelativeDocumentMoniker": "DLL\\DniControl.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\DniControl.xaml",
+              "RelativeToolTip": "DLL\\DniControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-20T09:53:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailControl.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\EmailControl.xaml",
+              "RelativeDocumentMoniker": "DLL\\EmailControl.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\EmailControl.xaml",
+              "RelativeToolTip": "DLL\\EmailControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T16:24:06.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NameControl.xaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\NameControl.xaml",
+              "RelativeDocumentMoniker": "DLL\\NameControl.xaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\NameControl.xaml",
+              "RelativeToolTip": "DLL\\NameControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-19T16:16:08.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\PhoneControl.xaml.cs",
+              "RelativeDocumentMoniker": "DLL\\PhoneControl.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\PhoneControl.xaml.cs",
+              "RelativeToolTip": "DLL\\PhoneControl.xaml.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAUwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:35:14.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NameControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\NameControl.xaml.cs",
+              "RelativeDocumentMoniker": "DLL\\NameControl.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\NameControl.xaml.cs",
+              "RelativeToolTip": "DLL\\NameControl.xaml.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAowMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:34:43.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\EmailControl.xaml.cs",
+              "RelativeDocumentMoniker": "DLL\\EmailControl.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\EmailControl.xaml.cs",
+              "RelativeToolTip": "DLL\\EmailControl.xaml.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:34:14.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DniControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\DniControl.xaml.cs",
+              "RelativeDocumentMoniker": "DLL\\DniControl.xaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA2\\iCustomer.v2\\DLL\\DLL\\DniControl.xaml.cs",
+              "RelativeToolTip": "DLL\\DniControl.xaml.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAYwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T10:33:43.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

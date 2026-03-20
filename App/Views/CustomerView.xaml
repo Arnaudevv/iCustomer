@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="iCustomer.Views.CustomerView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="{StaticResource PrimaryDark}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <!-- DataGrid fills available space -->
+            <RowDefinition Height="Auto"/>
+            <!-- Spacer -->
+            <RowDefinition Height="Auto"/>
+            <!-- Action bar -->
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="0"
+                  ItemsSource="{Binding Customers}"
+                  SelectedItem="{Binding SelectedCustomer}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  Margin="20,20,20,0"
+                  BorderThickness="1"
+                  BorderBrush="{StaticResource BorderColor}">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID"       Binding="{Binding Id}"       Width="*" MaxWidth="30"  IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="DNI"      Binding="{Binding Dni}"      Width="*" MinWidth="80"  IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="Name"     Binding="{Binding Name}"     Width="*" MinWidth="60"  IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="Surnames" Binding="{Binding LastName}" Width="*" MinWidth="60"  IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="Email"    Binding="{Binding Email}"    Width="*" MinWidth="150" IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="Phone"    Binding="{Binding Phone}"    Width="*" MinWidth="70"  IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+                <DataGridTextColumn Header="Registration date"
+                                    Binding="{Binding DataAlta, StringFormat='dd/MM/yyyy'}"
+                                    Width="*" MinWidth="150" IsReadOnly="True"
+                                    ElementStyle="{StaticResource CenteredCellStyle}"/>
+
+                <!-- Action column — buttons use RelativeSource to reach the
+                     DataGrid's DataContext (CustomerViewModel) for the commands. -->
+                <DataGridTemplateColumn Header="Actions" MinWidth="150" MaxWidth="150">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <Button Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.EditCustomerCommand}"
+                                        CommandParameter="{Binding}"
+                                        Background="{StaticResource AccentBlue}"
+                                        Foreground="White"
+                                        BorderBrush="{StaticResource BorderColor}"
+                                        BorderThickness="1"
+                                        Style="{StaticResource DataGridActionButtonStyle}"
+                                        ToolTip="Edit customer">✎</Button>
+                                <Button Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.DelCustomerCommand}"
+                                        CommandParameter="{Binding}"
+                                        Background="{StaticResource AccentRed}"
+                                        Foreground="White"
+                                        BorderBrush="{StaticResource BorderColor}"
+                                        BorderThickness="1"
+                                        Style="{StaticResource DataGridActionButtonStyle}"
+                                        ToolTip="Delete customer">✕</Button>
+                                <Button Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.ShowCustomerChart}"
+                                        CommandParameter="{Binding}"
+                                        Background="{StaticResource AccentBlue}"
+                                        Foreground="White"
+                                        Width="70"
+                                        BorderBrush="{StaticResource BorderColor}"
+                                        BorderThickness="1"
+                                        Style="{StaticResource DataGridActionButtonStyle}"
+                                        ToolTip="Show chart">📊</Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="1"/>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="20,12,20,20">
+            <Button Command="{Binding AddCustomerCommand}"
+                    Style="{StaticResource PrimaryButtonStyle}"
+                    BorderBrush="{StaticResource BorderColor}"
+                    BorderThickness="1"
+                    ToolTip="Afegir un nou client a la llista"
+                    Foreground="White"
+                    FontWeight="Medium">
+                ➕ Add Customer
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

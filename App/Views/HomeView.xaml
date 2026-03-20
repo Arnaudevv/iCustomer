@@ -1,0 +1,24 @@
+<UserControl x:Class="iCustomer.Views.HomeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Background="{StaticResource PrimaryDark}">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" MaxWidth="500" Margin="20">
+
+            <TextBlock Text="Welcome to iCustomer v.1.0"
+                       HorizontalAlignment="Center"
+                       FontSize="32"
+                       FontWeight="Bold"
+                       Foreground="#4A6A89"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,20"/>
+
+            <TextBlock Text="This is a customer management application developed with WPF."
+                       HorizontalAlignment="Center"
+                       FontSize="16"
+                       Foreground="#99ABAC"
+                       TextWrapping="NoWrap"
+                       LineHeight="24"/>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DLL/DLL.csproj" />
+  <Project Path="TestControls/TestControls.csproj" Id="eea63999-8e6c-4340-a72d-8dcedb1d798d" />
+</Solution>
