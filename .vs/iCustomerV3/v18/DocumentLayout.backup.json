@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA4\\iCustomer.v3 - copia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{660DA19F-A55A-4FB5-90EB-132894D58E66}|App\\WPF-MVVM-SPA-Template.csproj|c:\\users\\usuario\\desktop\\dam\\interf\u00EDcies\\ra4\\icustomer.v3 - copia\\app\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{660DA19F-A55A-4FB5-90EB-132894D58E66}|App\\WPF-MVVM-SPA-Template.csproj|solutionrelative:app\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA4\\iCustomer.v3 - copia\\App\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "App\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\DAM\\Interf\u00EDcies\\RA4\\iCustomer.v3 - copia\\App\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "App\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAawPEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T12:29:00.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

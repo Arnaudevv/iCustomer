@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="05/03/2026 18:15:10" ReportInfo.Modified="05/06/2026 20:31:51" ReportInfo.CreatorVersion="2025.1.0.0">
+	<Dictionary>
+		<XmlDataConnection Name="Connection1" ConnectionString="rijcmlqOTJvE11YRp35i8N7VsTmSncLvjm7xKpVqOxOiD4XZmCljunnTfsYofVNnNESm0WM">
+			<TableDataSource Name="Customer" DataType="System.Int32" Enabled="true" TableName="Customer">
+				<Column Name="Id" DataType="System.String"/>
+				<Column Name="Dni" DataType="System.String"/>
+				<Column Name="Name" DataType="System.String"/>
+				<Column Name="LastName" DataType="System.String"/>
+				<Column Name="Email" DataType="System.String"/>
+				<Column Name="Phone" DataType="System.String"/>
+				<Column Name="DataAlta" DataType="System.String"/>
+			</TableDataSource>
+		</XmlDataConnection>
+	</Dictionary>
+	<ReportPage Name="Page1" Watermark.Font="Arial, 60pt">
+		<ReportTitleBand Name="ReportTitle1" Width="718.2" Height="56.7">
+			<ShapeObject Name="Shape1" Width="718.2" Height="56.7" Border.Color="Transparent" Fill.Color="13, 13, 13"/>
+			<TextObject Name="Text1" Left="18.9" Top="18.9" Width="141.75" Height="18.9" Border.Color="Transparent" Text="Customer Report" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text2" Left="538.65" Top="18.9" Width="94.5" Height="18.9" Border.Color="Transparent" Text="Generated: " HorzAlign="Right" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text5" Left="633.15" Top="18.9" Width="122.85" Height="18.9" Border.Color="Transparent" Text="[Date]" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+		</ReportTitleBand>
+		<PageHeaderBand Name="PageHeader1" Top="60.7" Width="718.2" Height="113.4">
+			<ShapeObject Name="Shape2" Top="75.6" Width="718.2" Height="37.8" Border.Color="Transparent" Fill.Color="27, 27, 27"/>
+			<TextObject Name="Text6" Top="75.6" Width="28.35" Height="37.8" Border.Color="Transparent" Text="Id&#13;&#10;" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text7" Left="28.35" Top="75.6" Width="75.6" Height="37.8" Border.Color="Transparent" Text="Name&#13;&#10;" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text8" Left="103.95" Top="75.6" Width="113.4" Height="37.8" Border.Color="Transparent" Text="Surnames" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text9" Left="217.35" Top="75.6" Width="151.2" Height="37.8" Border.Color="Transparent" Text="Email&#13;&#10;" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text10" Left="368.55" Top="75.6" Width="122.85" Height="37.8" Border.Color="Transparent" Text="Phone" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text11" Left="491.4" Top="75.6" Width="94.5" Height="37.8" Border.Color="Transparent" Text="DNI&#13;&#10;" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text12" Left="585.9" Top="75.6" Width="132.3" Height="37.8" Border.Color="Transparent" Text="Registration Date&#13;&#10;" VertAlign="Center" Font="Arial, 10pt, style=Bold" TextFill.Color="White"/>
+			<TextObject Name="Text3" Left="255.15" Top="18.9" Width="189" Height="28.35" Border.Color="Transparent" Text="Client List" HorzAlign="Center" Font="Arial, 14pt, style=Bold" TextFill.Color="13, 13, 13"/>
+		</PageHeaderBand>
+		<DataBand Name="Data1" Top="178.1" Width="718.2" Height="47.25" DataSource="Customer" RowCount="0">
+			<TextObject Name="Text13" Width="28.35" Height="47.25" Border.Color="Transparent" Fill.Color="WhiteSmoke" Text="[Customer.Id]" VertAlign="Center" Font="Arial, 10pt"/>
+			<TextObject Name="Text14" Left="28.35" Width="75.6" Height="47.25" Fill.Color="White" Text="[Customer.Name]" VertAlign="Center" Font="Arial, 10pt, style=Bold"/>
+			<TextObject Name="Text15" Left="103.95" Width="113.4" Height="47.25" Border.Color="WhiteSmoke" Fill.Color="WhiteSmoke" Text="[Customer.LastName]" VertAlign="Center" Font="Arial, 10pt"/>
+			<TextObject Name="Text16" Left="217.35" Width="151.2" Height="47.25" Border.Color="Transparent" Fill.Color="White" Text="[Customer.Email]" VertAlign="Center" Font="Arial, 9pt" TextFill.Color="Blue"/>
+			<TextObject Name="Text17" Left="368.55" Width="122.85" Height="47.25" Border.Color="Transparent" Fill.Color="WhiteSmoke" Text="[Customer.Phone]" VertAlign="Center" Font="Arial, 10pt"/>
+			<TextObject Name="Text19" Left="491.4" Width="94.5" Height="47.25" Border.Color="Transparent" Fill.Color="White" Text="[Customer.Dni]" VertAlign="Center" Font="Arial, 10pt"/>
+			<TextObject Name="Text21" Left="585.9" Width="132.3" Height="47.25" Border.Color="WhiteSmoke" Fill.Color="WhiteSmoke" Text="[Customer.DataAlta]" Format="Date" Format.Format="d" VertAlign="Center" Font="Arial, 10pt"/>
+		</DataBand>
+		<PageFooterBand Name="PageFooter1" Top="229.35" Width="718.2" Height="151.2">
+			<TextObject Name="Text22" Top="66.15" Width="670.95" Height="37.8" Border.Color="Transparent" Text="Report generated on [Date] by the GestióClients application v1.0 - Report engine: FastReport.OpenSource 2025.1.0 - Exported with FastReport.OpenSource.Export.PdfSimple" VertAlign="Center" Font="Arial, 8pt" TextFill.Color="Gray"/>
+			<LineObject Name="Line1" Top="56.7" Width="718.2" Border.Color="DarkGray" Border.Width="1.5"/>
+			<ShapeObject Name="Shape3" Top="113.4" Width="718.2" Height="37.8" Border.Color="Transparent" Border.Width="0.25" Fill.Color="13, 13, 13"/>
+			<TextObject Name="Text23" Left="633.15" Top="122.85" Width="56.7" Height="18.9" Border.Color="White" Border.Width="2" Text="[Page]" HorzAlign="Right" VertAlign="Center" Font="Arial, 8pt, style=Bold" TextFill.Color="White"/>
+		</PageFooterBand>
+	</ReportPage>
+</Report>

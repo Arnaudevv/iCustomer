@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows7.0</TargetFramework>
+		<RootNamespace>WPF_MVVM_SPA_Template</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Remove="System.Windows.Forms" />
+		<Using Remove="System.Drawing" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FastReport.Data.Json" Version="2025.1.0" />
+		<PackageReference Include="FastReport.OpenSource" Version="2025.1.0" />
+		<PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2025.1.0" />
+		<PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DLL\DLL.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Reports\*.frx">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
